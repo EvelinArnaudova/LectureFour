@@ -1,6 +1,5 @@
 import java.util.*;
 import java.util.LinkedList;
-import java.io.*;
 
 public class lectureFive {
     public static void main(String[] args) {
@@ -98,16 +97,16 @@ public class lectureFive {
         }
     }
 
-    public static void SumDiagonal(int[][] matrix, int n) {
+    private static void SumDiagonal(int[][] matrix, int n) {
 
-           /* int[][] table = {
-                    {1, 2, 3, 4,},
-                    {5, 6, 7, 8},
-                    {9, 10, 11, 12},
-                    {13, 14, 15, 16}
-            };
+        int[][] matrix = {
+                {1, 2, 3, 4,},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12},
+                {13, 14, 15, 16}
+        };
 
-            SumDiagonal(table, 4);*/
+        SumDiagonal(matrix, 4);
 
         int pD = 0, sD = 0;
         for (int i = 0; i < n; i++) {
