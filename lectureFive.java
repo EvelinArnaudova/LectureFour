@@ -100,14 +100,14 @@ public class lectureFive {
 
     public static void SumDiagonal(int[][] matrix, int n) {
 
-           /* int[][] table = {
+           /* int[][] matrix = {
                     {1, 2, 3, 4,},
                     {5, 6, 7, 8},
                     {9, 10, 11, 12},
                     {13, 14, 15, 16}
             };
 
-            SumDiagonal(table, 4);*/
+            SumDiagonal(matrix, 4);*/
 
         int pD = 0, sD = 0;
         for (int i = 0; i < n; i++) {
