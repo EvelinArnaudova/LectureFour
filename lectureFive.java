@@ -6,14 +6,14 @@ public class lectureFive {
 
     }
 
-    public static void SumArrays() {
+    public static void sumArrays() {
         int[] evenNumbers = {2, 4, 6};
         int[] oddNumbers = {3, 5, 7};
 
         System.out.println(evenNumbers[1] + oddNumbers[2]);
     }
 
-    public static void Print2DMatrix() {
+    public static void print2DMatrix() {
         int[][] sum = new int[4][2];
         sum[0][0] = 10;
         sum[0][1] = 11;
@@ -24,14 +24,14 @@ public class lectureFive {
         sum[3][0] = 16;
         sum[3][1] = 17;
 
-        for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 2; j++) {
+        for (int i = 0; i < sum.length; i++) {
+            for (int j = 0; j < sum.length; j++) {
                 System.out.println(sum[i][j]);
             }
         }
     }
 
-    public static void Enter2DMatrix() {
+    public static void enter2DMatrix() {
 
         int row, column, i = 0, j = 0;
 
@@ -58,7 +58,7 @@ public class lectureFive {
         System.out.println();
     }
 
-    public static void FindBiggestNum() {
+    public static void findBiggestNum() {
 
         /*ArrayList<Double> myNumbers = new ArrayList<>();
         myNumbers.add(3.4);
@@ -82,7 +82,7 @@ public class lectureFive {
         System.out.println("The biggest number is: " + bigNum);
     }
 
-    public static void ReverseLinkedList() {
+    public static void reverseLinkedList() {
         LinkedList<Integer> myList = new LinkedList<>();
         myList.add(10);
         myList.add(20);
@@ -97,7 +97,7 @@ public class lectureFive {
         }
     }
 
-    private static void SumDiagonal(int[][] matrix, int n) {
+    public static void sumDiagonal() {
 
         int[][] matrix = {
                 {1, 2, 3, 4,},
@@ -106,14 +106,14 @@ public class lectureFive {
                 {13, 14, 15, 16}
         };
 
-        SumDiagonal(matrix, 4);
+        int matrixSize = 4;
 
         int pD = 0, sD = 0;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
+        for (int i = 0; i < matrixSize; i++) {
+            for (int j = 0; j < matrixSize; j++) {
                 if (i == j)
                     pD += matrix[i][j];
-                if ((i + j) == (n - 1))
+                if ((i + j) == (matrixSize - 1))
                     sD += matrix[i][j];
             }
         }
