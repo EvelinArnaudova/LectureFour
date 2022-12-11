@@ -3,7 +3,7 @@ import java.util.LinkedList;
 
 public class lectureFive {
     public static void main(String[] args) {
-
+        checkIfPalindrome();
     }
 
     public static void sumArrays() {
@@ -121,6 +121,26 @@ public class lectureFive {
         System.out.println("The sum of the secondary diagonal is: " + sD);
 
     }
+
+    public static void checkIfPalindrome(){
+        String word = "bomob";
+
+        String reveredWord = "";
+
+        boolean isPalindrome = false;
+
+        for (int i = word.length() - 1; i >= 0; i--) {
+            reveredWord = reveredWord + word.charAt(i);
+        }
+
+        // Checking if both the strings are equal
+        if (word.equals(reveredWord)) {
+            isPalindrome = true;
+        }
+
+        System.out.println("The String is palindrome: " + isPalindrome);
+    }
+
 }
 
 
