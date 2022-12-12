@@ -5,7 +5,7 @@ import java.util.LinkedList;
 
 public class lectureFive {
     public static void main(String[] args) {
-        checkIfPalindrome();
+        reverseLinkedList();
     }
 
     public static void sumArrays() {
@@ -127,11 +127,11 @@ public class lectureFive {
     public static void checkIfPalindrome(){
         String word = "bomob";
 
-        String reveredWord = "";
+        String reveredWord = ""; // пазим думата, която ще е с обратен словоред. тук добавяме всеки символ-да виси
 
         boolean isPalindrome = false;
 
-        for (int i = word.length() - 1; i >= 0; i--) {
+        for (int i = word.length() - 1; i >= 0; i--) { //логиката в цикъла е обратна, защото започваме отзад-напред
             reveredWord = reveredWord + word.charAt(i);
         }
 
