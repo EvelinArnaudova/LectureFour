@@ -11,13 +11,13 @@ public class lectureSix {
 
         //double num = computeAverageNumber(3.4,5.6,7.8);
 
-        /*String str = "cake";
-        str = printMidChar("cake");*/
+        //printMidChar("Hello");
 
-        /*String word = "Hello, how are you?";
-        countWords("Hello, how are you?");*/
+        //int words = countWords("Hello, how are you?");
 
-        //isEven(6);
+        //boolean isEven = isEven(6);
+
+        //boolean checkIfPalindrome = checkIfPalindrome();
 
     }
 
@@ -37,7 +37,7 @@ public class lectureSix {
         return (num1+num2+num3) / 3;
     }
 
-    public static String printMidChar(String str){
+    public static void printMidChar(String str){
         int position, length;
         int len = str.length(); // Finding string length
         int middle = len/2; // Finding the middle of the String
@@ -51,19 +51,19 @@ public class lectureSix {
             position = middle; // if the number is even
             length=1;
         }
-        return str.substring(position, position + length);
+        System.out.println(str.substring(position, position + length));
     }
 
     public static int countWords (String word){
         word = word.trim(); //This method may be used to trim space from the beginning and end of a string.
-        int count = 0;
+        int count = 0; // брои думите само
         int textLength = word.length(); //all characters + spaces + symbols
 
         if (textLength > 1) {
             count++; //After trim() the text will always start with a word
 
             for (int i = 1; i < textLength; i++) {
-                if (word.charAt(i) == ' ') { //the char value at the specified index of this string
+                if (word.charAt(i) == ' ') { //everytime there is a whitespace this means a new word starts
                     count++;
                 }
             }
