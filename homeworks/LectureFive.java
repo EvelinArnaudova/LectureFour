@@ -3,7 +3,7 @@ package homeworks;
 import java.util.*;
 import java.util.LinkedList;
 
-public class lectureFive {
+public class LectureFive {
     public static void main(String[] args) {
         reverseLinkedList();
     }
