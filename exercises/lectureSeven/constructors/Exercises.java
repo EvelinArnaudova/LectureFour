@@ -1,6 +1,6 @@
-package lectureSeven.constructors;
+package exercises.lectureSeven.constructors;
 
-import lectureSeven.constructors.vehicle.Car;
+import exercises.lectureSeven.constructors.vehicle.Car;
 
 public class Exercises {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package homeworks;
+package homeworks.lectureTwo;
 
 import java.util.Scanner;
 public class LectureTwo {

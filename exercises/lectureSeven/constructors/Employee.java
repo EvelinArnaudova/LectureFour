@@ -1,4 +1,4 @@
-package lectureSeven.constructors;
+package exercises.lectureSeven.constructors;
 
 public class Employee {
     private String firstName;

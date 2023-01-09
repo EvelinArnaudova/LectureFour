@@ -1,13 +1,11 @@
-package lectureSeven.exceptions;
-
-import java.io.*;
+package exercises.lectureSeven.exceptions;
 
 public class Exercises {
     public static void main(String[] args) {
 
     }
         /* static void testCheckedException() {
-            File file = new File("src/lectureSeven/textFile.txt");
+            File file = new File("src/exercises.lectureSeven/textFile.txt");
             FileReader fr = new FileReader(file);
 
         }*/

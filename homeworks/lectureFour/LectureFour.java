@@ -1,4 +1,4 @@
-package homeworks;
+package homeworks.lectureFour;
 
 import java.util.Scanner;
 import java.util.Objects;

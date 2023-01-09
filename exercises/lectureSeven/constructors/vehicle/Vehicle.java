@@ -1,4 +1,4 @@
-package lectureSeven.constructors.vehicle;
+package exercises.lectureSeven.constructors.vehicle;
 
 public class Vehicle {
 

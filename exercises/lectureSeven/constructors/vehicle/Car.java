@@ -1,4 +1,4 @@
-package lectureSeven.constructors.vehicle;
+package exercises.lectureSeven.constructors.vehicle;
 
 public class Car extends Vehicle {
     private String brand;

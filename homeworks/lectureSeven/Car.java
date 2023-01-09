@@ -1,6 +1,4 @@
-package homeworks.LectureSeven;
-
-import javax.sound.sampled.AudioFileFormat;
+package homeworks.lectureSeven;
 
 public class Car {
     public static void main (String [] args) {
