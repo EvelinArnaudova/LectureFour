@@ -1,4 +1,4 @@
-package exercises.lectureEight.examples.encapsulation;
+package exercises.lectureEight.encapsulation;
 
 import java.util.Date;
 import java.util.Random;
@@ -27,16 +27,17 @@ public class BankAccount {
             this.ownerName = ownerName; // ако има създадено, да не го променя
     }
 
-    public double getAccountBalance() {
-        return this.accountBalance;
+    public int getAccountBalance() {
+
+        return (int)accountBalance;
     }
 
     public String getAccountNumber() {
         return this.accountNumber;
     }
 
-    private void setAccountNumber(String name) {
-        Date d = new Date();
+    private void setAccountNumber(String name) { //can be changed with the setter
+        Date d = new Date(); // must be private
         Random r = new Random();
         this.accountNumber = name + d.getTime() + r.nextInt();
     }

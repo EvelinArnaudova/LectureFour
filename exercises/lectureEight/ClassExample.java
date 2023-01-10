@@ -1,4 +1,4 @@
-package exercises.lectureEight.examples;
+package exercises.lectureEight;
 
 public class ClassExample {
     int x = 5; //attributes

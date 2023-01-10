@@ -1,4 +1,4 @@
-package exercises.lectureEight.examples;
+package exercises.lectureEight;
 
 public class Car {
     String brand;

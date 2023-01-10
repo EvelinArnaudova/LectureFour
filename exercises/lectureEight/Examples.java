@@ -1,6 +1,4 @@
-package exercises.lectureEight.examples;
-
-import exercises.lectureEight.examples.ClassExample;
+package exercises.lectureEight;
 
 public class Examples {
     public static void main (String[] args){
