@@ -1,4 +1,4 @@
-package homeworks.lectureSeven;
+package homeworks.lectureSeven.constructors;
 
 public class Car {
     private String name;

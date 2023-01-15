@@ -1,5 +1,5 @@
-package homeworks.lectureSeven;
-import homeworks.lectureSeven.Car;
+package homeworks.lectureSeven.constructors;
+import homeworks.lectureSeven.constructors.Car;
 public class Exercise {
     public static void main (String [] args) {
         Car car = new Car("Audi", "blue" ,true);
