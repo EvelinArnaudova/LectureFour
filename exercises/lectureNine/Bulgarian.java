@@ -12,7 +12,7 @@ public class Bulgarian extends Person {
 
     @Override
     public void isAdult() {
-        boolean result = this.age >=18;
+        boolean result = this.age >=24;
         System.out.println("Is this person an adult : " + result);
     }
 

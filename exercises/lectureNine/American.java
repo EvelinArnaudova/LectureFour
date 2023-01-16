@@ -12,7 +12,7 @@ public class American extends Person {
 
     @Override
     public void isAdult() {
-        boolean result = this.age >= 21;
+        boolean result = this.age >= 26;
         System.out.println("Is this person an adult : " + result);
     }
 
