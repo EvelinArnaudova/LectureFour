@@ -28,16 +28,14 @@ public abstract class Person {
         this.name = name;
         this.religion = religion;
         this.language = language;
-        //this.job = job; // public
+        this.job = job; // public
         this.nationality = nationality;
         this.egn = egn;
-        //this.country = country; //public
+        this.country = country; //public
         setEgn(egn); // must be called first because it sets the format
         setDateOfBirth(egn);
         setAge(egn);
         setSex(sex);
-        setCountry(country);
-        setJob(job);
     }
     //81 07 23 3560
     private void setAge(long egn) {
@@ -134,4 +132,14 @@ public abstract class Person {
     public void setJob(String job) {
         this.job = job;
     }
+
+    private void validateSex(String sex) throws Exception {
+        String male = "Male";
+        String female = "Female";
+
+        if (!sex.equalsIgnoreCase(male) && !sex.equalsIgnoreCase(female)) {
+            throw new Exception("Please provide a valid value for sex. Valid options are 'male' or 'female'");
+        }
+    }
+
 }

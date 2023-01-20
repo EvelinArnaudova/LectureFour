@@ -2,7 +2,7 @@ package exercises.lectureNine;
 
 public class American extends Person {
     public American(String name, String sex, String religion, String language, String job, String nationality, long egn, String country) {
-        super(name, sex, religion, language, job, nationality, egn, country);
+        super(name, sex, religion, "English", job, nationality, egn, country);
     }
 
     @Override
